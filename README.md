@@ -13,3 +13,25 @@ Many will fail but those who last will thrive.
 I shall await you at the frontier of Cosmos.
 
 Your goal is simple: build a smart contract that can sends token to another chain
+
+## BASIC SETUP
+
+1. start the galaxy
+
+```
+bash scripts/setup.sh
+```
+
+2. build smart contracts
+
+```
+bash build/planets/contract/scripts/build-contract.sh
+```
+
+## ADVANCED SETUP
+
+3. deploy smart contracts
+
+4. reset relayer to reflect new cw20_ics20 wasm port
+
+5. send tokens

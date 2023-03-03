@@ -1,0 +1,14 @@
+{
+    "wasm": "cw20_base",
+    "init": {
+      "decimals": 6,
+      "initial_balances": [
+        {
+          "address": "aura1xrj7hrjg86fdd9ct7j4dluusgd6geghhewassh",
+          "amount": "1000000000000"
+        }
+      ],
+      "name": "harkonnen",
+      "symbol": "HAR"
+    }
+}

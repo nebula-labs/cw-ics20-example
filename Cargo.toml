@@ -1,0 +1,10 @@
+[workspace]
+members = ["contracts/*"]
+resolver = "1"
+
+[workspace.package]
+version    = "0.0.1"
+edition    = "2021"
+homepage   = "https://github.com/nebula-labs"
+repository = "https://github.com/nebula-labs/cw-ics20-example"
+license    = "Apache-2.0"
