@@ -22,6 +22,8 @@ Your goal is simple: build a smart contract that can sends token to another chai
 bash scripts/setup.sh
 ```
 
+![success_galaxy](success_galaxy.png)
+
 2. build smart contracts
 
 ```
