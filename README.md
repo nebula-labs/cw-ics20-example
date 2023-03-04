@@ -32,8 +32,33 @@ bash build/planets/contract/scripts/build-contract.sh
 
 ## ADVANCED SETUP
 
+
+
 3. deploy smart contracts
+```
+cd build/planets
+bash contract/scripts/contract-download-alpha.sh
+bash contract/scripts/contract-download-alpha.sh cw20_base
+
+bash contract/scripts/deploy-contract.sh aura juno
+```
+
 
 4. reset relayer to reflect new cw20_ics20 wasm port
 
+Get contract address cw20_ics20 from file `build/planets/contract/logs/contract-addresses.txt`
+
+For example:
+```
+CONTRACT ADDRESS of cw20_ics20 on test-aura with address = aura1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalsm6u
+```
+Running bash script:
+
+```
+bash network/setup-relayer.sh aura juno wasm.aura1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalsm6u
+```
+
 5. send tokens
+```
+bash scripts/native-ibc-transfer.sh aura1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalsm6u
+```
