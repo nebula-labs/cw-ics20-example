@@ -14,6 +14,8 @@ I shall await you at the frontier of Cosmos.
 
 Your goal is simple: build a smart contract that can sends token to another chain
 
+![relayer](relay.drawio.png)
+
 ## BASIC SETUP
 
 1. start the galaxy

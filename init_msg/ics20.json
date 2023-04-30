@@ -3,13 +3,13 @@
   "init": {
     "allowlist": [
       {
-        "contract": "aura1aaf9r6s7nxhysuegqrxv0wpm27ypyv4886medd3mrkrw6t4yfcnsxz3h4u"
+        "contract": "aura14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9swserkw"
       },
       {
-        "contract": "aura14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3leszuch7u"
+        "contract": "aura1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrqz9up5g"
       },
       {
-        "contract": "aura1jue5rlc9dkurt3etr57duutqu7prchqrk2mes2227m52kkrual3q9860ny"
+        "contract": "aura17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgs67zyav"
       }
     ],
     "default_timeout": 300,
